@@ -1,0 +1,33 @@
+html { font-size: max(1em, 5vmax) }
+body { margin: auto }
+p { margin: 0; line-height: 1.333 }
+
+article {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  contain: style;
+  margin: auto;
+  min-height: 100vh;
+  padding: 1em;
+}
+
+hr {
+  border: 0;
+  border-top: thick dotted;
+}
+
+header {
+  box-sizing: border-box;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+:focus {
+  border-radius: 10%;
+  outline: thick dotted;
+}
+
+:active {
+  border-radius: 20%;
+  outline-offset: 1ex;
+}
