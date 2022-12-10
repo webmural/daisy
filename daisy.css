@@ -1,0 +1,39 @@
+::selection {
+  background: darkorchid;
+  color: #bee;
+}
+
+:any-link {
+  color: #528;
+  transition: 360ms;
+}
+
+.daisy {
+  background: lavenderblush;
+  color: #535;
+}
+
+.disco {
+  background: #ee1;
+  color: #235;
+}
+
+.grass {
+  background: chartreuse;
+  color: #213;
+}
+
+.swoon {
+  background: mistyrose;
+  color: #235;
+}
+
+.sleep {
+  background: #d0e;
+  color: #315;
+}
+
+.suave {
+  background: #bee;
+  color: #318;
+}
