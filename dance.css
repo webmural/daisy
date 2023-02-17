@@ -5,7 +5,7 @@ p { margin: 0; line-height: 1.333 }
 article {
   font-family: sans-serif;
   box-sizing: border-box;
-  contain: style;
+  contain: content;
   margin: auto;
   min-height: 100vh;
   padding: 1em;

@@ -5,11 +5,10 @@
 
 :any-link {
   color: #528;
-  transition: 360ms;
 }
 
 .daisy {
-  background: lavenderblush;
+  background: mistyrose;
   color: #535;
 }
 
@@ -24,16 +23,11 @@
 }
 
 .swoon {
-  background: mistyrose;
+  background: pink;
   color: #235;
 }
 
-.sleep {
-  background: #d0e;
-  color: #315;
-}
-
 .suave {
-  background: #bee;
-  color: #318;
+  background: #bae;
+  color: #315;
 }
