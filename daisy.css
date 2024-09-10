@@ -1,6 +1,6 @@
 ::selection {
-  background: darkorchid;
-  color: #bee;
+  background: mediumorchid;
+  color: #030103;
 }
 
 :any-link {
@@ -18,16 +18,16 @@
 }
 
 .grass {
-  background: chartreuse;
+  background: #be9;
   color: #213;
 }
 
 .swoon {
-  background: pink;
+  background: #faabee;
   color: #235;
 }
 
 .suave {
   background: #bae;
-  color: #315;
+  color: #312;
 }
