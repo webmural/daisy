@@ -1,19 +1,24 @@
-html { font-size: max(1em, 5vmax) }
-body { margin: auto }
-p { margin: 0; line-height: 1.333 }
+* { 
+  box-sizing: border-box;
+}
+
+html { 
+  font-size: max(3ex, 3vmax + 2vmin);
+  font-family: sans-serif;
+  line-height: calc(55 / 34);
+}
+
+body { 
+  margin: auto;
+  overflow-wrap: anywhere;
+}
 
 article {
   font-family: sans-serif;
-  box-sizing: border-box;
-  contain: content;
+  contain: layout;
   margin: auto;
   min-height: 100vh;
-  padding: 1em;
-}
-
-hr {
-  border: 0;
-  border-top: thick dotted;
+  padding: 1em 1em 2em;
 }
 
 header {
@@ -22,12 +27,29 @@ header {
   font-weight: bold;
 }
 
+footer,
+h1 {
+  font-size: 1.618em;
+  font-weight: 500;
+  margin-block: 1.618rem;
+}
+
+p {
+  margin: 1.618rem 0;
+}
+
+footer {
+  font-size: 1.618em;
+  font-weight: 500;
+  margin-block: 1.618rem;
+}
+
 :focus {
   border-radius: 10%;
   outline: thick dotted;
 }
 
-:active {
+:any-link:active {
   border-radius: 20%;
   outline-offset: 1ex;
 }
