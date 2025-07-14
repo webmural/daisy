@@ -27,7 +27,34 @@
   color: #235;
 }
 
-.suave {
+.gloss {
   background: #bae;
   color: #312;
+}
+
+@media (prefers-color-scheme: dark) {
+  .daisy {
+    background: #518;
+    color: pink;
+  }
+  
+  .disco {
+    background: transparent;
+    color: #ee3;
+  }
+  
+  .grass {
+    background: transparent;
+    color: #be9;
+  }
+  
+  .swoon {
+    background: transparent;
+    color: #faabee;
+  }
+
+  .gloss {
+    background: transparent;
+    color: #bae;
+  }
 }
